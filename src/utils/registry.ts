@@ -1,6 +1,6 @@
 import fetch from "node-fetch"
 
-const REGISTRY_BASE_URL ="https://raw.githubusercontent.com/TheWebPrime/polare-ui/main/public/r"
+const REGISTRY_BASE_URL ="https://raw.githubusercontent.com/polarelabs/polare-ui/main/public/r"
 
 
 export interface RegistryItem {

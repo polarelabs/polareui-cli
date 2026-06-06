@@ -2,24 +2,31 @@
   "name": "polareui",
   "version": "0.1.0",
   "description": "Polare UI CLI — Add quality components to your project",
-  "keywords": ["polare", "ui", "components", "cli", "react", "tailwind"],
+  "keywords": [
+    "polare",
+    "ui",
+    "components",
+    "cli",
+    "react",
+    "tailwind"
+  ],
   "author": "TheWebPrime",
   "license": "MIT",
   "type": "module",
   "bin": {
-    "polareui": "./dist/index.js"
+    "polareui": "dist/index.js"
   },
   "scripts": {
-  "build": "tsc",
-  "dev": "tsc --watch",
-  "start": "node dist/index.js",
-  "prepare": "tsc"
-},
-"files": [
-  "dist",
-  "package.json",
-  "README.md"
-],
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepare": "tsc"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
